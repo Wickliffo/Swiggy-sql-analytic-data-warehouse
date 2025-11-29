@@ -1,3 +1,4 @@
+<img width="1024" height="1536" alt="A star schema diagra" src="https://github.com/user-attachments/assets/229d34ff-6275-48d8-ab62-f84dad770410" />
 # 🍽️ Swiggy Data Warehouse Project
 
 ## 📌 Overview
