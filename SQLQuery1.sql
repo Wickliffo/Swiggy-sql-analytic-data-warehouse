@@ -16,7 +16,7 @@ SELECT
       SUM(CASE WHEN Rating_Count IS NULL THEN 1 ELSE 0 END) AS null_rating_count
 FROM dbo.Swiggy_Data;
 
--- Convert blanks to NULLs for consistency
+-- Convert blanks to NULLs (for consistency)
 UPDATE dbo.Swiggy_Data
 SET State = NULL WHERE State = '';
 UPDATE dbo.Swiggy_Data
@@ -124,7 +124,7 @@ END
 -- 3️⃣ POPULATE DIMENSION TABLES
 -- ============================================================
 
--- Clear dimensions before reload (optional if incremental)
+-- Clearing  dimensions before reload
 TRUNCATE TABLE dim_date;
 TRUNCATE TABLE dim_location;
 TRUNCATE TABLE dim_restaurant;
