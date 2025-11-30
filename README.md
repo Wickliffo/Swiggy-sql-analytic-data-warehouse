@@ -94,5 +94,6 @@ It covers **data validation, cleaning, dimensional modeling, ETL pipeline creati
 ---
 
 ## 📌 Author
-👤 **Wickliff**  
-Focused on **data engineering, ETL pipelines, and analytics** for Kenya’s digital economy.  
+👤 **Wickliff Orina**  
+Focused on **data engineering, ETL pipelines, and analytics** for Kenya’s digital economy.
+
